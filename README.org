@@ -1,0 +1,25 @@
+#+TITLE:Org Capture
+#+AUTHOR: Jeff Bellegarde
+
+* Org Capture
+
+Provides a link between the org-protocol url scheme and emacsclient.
+
+Based on JCardante's notes [[http://jcardente.blogspot.com/2010/09/saving-weblinks-to-org-mode-from-safari.html][here]].
+
+This is very much a 'Works on my machine" thing. I hope it works for you but I'm not entirely sure what's going on.
+
+** Install
+
+ 1. Clone and copy entire directory to /Applications as OrgCapture.app.
+ 2. In System Preferences under "Default Apps" the org-protocol entry should be set to "OrgCapture.app (1.0)".
+ 3. In your browser setup the bookmark as described [[http://orgmode.org/worg/org-contrib/org-protocol.html#orgheadline8][here]].
+
+** Other
+
+ The script does assume that emacsclient lives at ~/usr/local/bin/emacsclient~. I install emacs using brew which does put it there. Using just ~emacsclient~ didn't seem to work. I assume ~/usr/localbin/~ is not on the default path.
+
+
+
+
+
